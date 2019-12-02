@@ -12,10 +12,11 @@ carregar_wav = wave.open(entrada, 'r')
 def indexar_wav():
     cont = 1
     for nome in os.listdir(entrada):
-       
+        nome = nome.split('.')
+
         novo_nome = cont + '.wav'
 
-        os.rename(entrada+nome, entrada+novo_nome)
+        nome.replace(nome[0], novo_nome)
         
         cont = cont + 1
 
