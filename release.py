@@ -108,5 +108,5 @@ learn_audio()
 
 # Agradecimentos: #
 
-# Ao Diretor de Desenvolvimento da TITAN - Computação Inteligente, João Paulo Rios. #
+# Ao Diretor de Desenvolvimento da TITAN - Computação Inteligente #
 # Ao Professor de Introdução à Engenharia de Computação, Antônio Lopes #
