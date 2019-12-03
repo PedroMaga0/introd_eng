@@ -6,6 +6,11 @@ from pydub import AudioSegment
 import wave
 
 
+buscas_wav()
+converte_para_wav()
+renomeia_wav()
+recupera_nome_musica(musica)
+
 musicas_mp3 = list()
 musicas_wav = list()
 
@@ -28,7 +33,6 @@ def converte_para_wav():
         sound.export(musica.replace('.mp3', '.wav'), format="wav")
         musicas_wav.append(musica.replace('.mp3', '.wav'))
         
-        
 def renomeia_wav():
     cont = 1
     for musica in musicas_wav:
@@ -43,7 +47,6 @@ def recupera_nome_musica(musica):
 
 def carregar_wave():
     pass
-
 
 def plota_grafico(musica):
     pass
